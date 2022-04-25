@@ -1,0 +1,212 @@
+html {
+    scroll-behavior: smooth;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root {
+    --white: #ffffff;
+    --black: #000;
+    --green: #019587;
+    --green2: #089485;
+    --white2: #e2e4e3;
+    --white3: #7a7a7a;
+    --black2: #293237;
+}
+@font-face {
+    font-family: Roboto;
+    src: url('./Fonts/Roboto-Regular.ttf');
+}
+
+/* CSS */
+body {
+    background-color: var(--white2);
+    font-family: Roboto;
+}
+/* contents */
+.contents {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+/* intro / info */
+.intro, .info {
+    background-color: var(--white);
+    margin-top: 1rem;
+    border-radius: 2.5px;
+    -webkit-border-radius: 2.5px;
+    -moz-border-radius: 2.5px;
+    -ms-border-radius: 2.5px;
+    -o-border-radius: 2.5px;
+    box-shadow: 0 0 20px #bcbcbc;
+}
+/* intro */
+.intro {
+    width: 32.5%;
+    height: 100%;
+    color: #757575;
+}
+/* info */
+.info {
+    width: 62.5%;
+    padding: 1rem 1.5rem;
+}
+.JaneDoe_figure {
+    position: relative;
+}
+.JaneDoe_image {
+    width: 100%;
+    height: auto;
+}
+.JaneDoe_name {
+    position: absolute;
+    bottom: 0;
+    left: 2rem;
+    color: var(--black);
+}
+.starter {
+    list-style-type: none;
+}
+.starter li {
+    padding: 0.5rem 1.5rem;
+    margin: 0.5rem 0;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.starter li:hover {
+    background-color: var(--green);
+    color: var(--white);
+}
+.starter li:hover i, .starter li:hover a {
+    color: var(--white);
+}
+.starter i {
+    color: var(--green);
+    width: 25px;
+}
+.skills, .languages {
+    padding: 0.5rem 1.5rem;
+}
+.intro_titles {
+    font-size: 15pt;
+    font-weight: bold;
+}
+.sections_icons {
+    color: var(--green);
+}
+.skills_list, .languages_list {
+    list-style-type: none;
+}
+.skills_parts, .languages_parts {
+    margin: 1rem 0;
+}
+/* progress bars */
+.progress_bar {
+    width: 100%;
+    height: 20px;
+    background-color: var(--white2);
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+.progress_percent {
+    height: 20px;
+    background-color: var(--green);
+    color: var(--white);
+    text-align: center;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+.adobe {
+    width: 90%;
+}
+.photograph {
+    width: 80%;
+}
+.illus {
+    width: 75%;
+}
+.Media {
+    width: 50%;
+}
+.english {
+    width: 100%;
+}
+.spanish {
+    width: 50%;
+}
+.germany {
+    width: 20%;
+}
+/* work / education */
+.work, .education {
+    width: 100%;
+    height: auto;
+    color: var(--black);
+    margin: 2em 0 0;
+}
+.info_titles {
+    color: var(--white3);
+}
+.info_icons {
+    color: var(--green);
+    width: 40px;
+}
+.work_list, .education_list {
+    list-style-type: none;
+}
+.work_titles, .education_titles {
+    font-size: 15pt;
+}
+.work_dates, .education_dates {
+    color: var(--green);
+}
+.dates_icons {
+    width: 25px;
+}
+.badge {
+    background-color: var(--green);
+    padding: 0.25rem 0.5rem;
+    color: var(--white);
+    font-weight: lighter;
+    font-size: 11pt;
+}
+.work_items p, .education_items p {
+    padding: 1rem 0 0.5rem;
+}
+.work_items, .education_items {
+    margin: 1.5rem 0 0;
+}
+/* footer */
+footer {
+    width: 100%;
+    height: auto;
+    background-color: var(--green);
+    color: var(--white);
+    text-align: center;
+    padding: 1em 0;
+}
+.medias_list {
+    list-style-type: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.medias_list a {
+    display: inline-block;
+    margin: 0 0.25rem;
+    color: var(--white);
+}
